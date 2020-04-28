@@ -1,0 +1,26 @@
+{
+  "name": "make-axios-behave-like-curl",
+  "version": "0.1.0",
+  "description": "Returns an axios instance which behaves like curl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Phil Olson",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-personal": "github:olsonpm/eslint-config-personal",
+    "prettier": "^2.0.5"
+  },
+  "eslintConfig": {
+    "extends": "personal"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
